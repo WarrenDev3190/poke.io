@@ -1,0 +1,17 @@
+{
+  "name": "poke.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "catch-em-all": "node index.js && node json2csv.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json2csv": "^3.6.2",
+    "pokemon-go-node-api": "^1.4.0"
+  }
+}
